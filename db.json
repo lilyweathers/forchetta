@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Pasta",
+        "description": "Tasty italian pasta",
+        "_id": "1",
+        "imgUrl": "",
+        "avgRating":"4",
+        "timeInMins": "5",
+        "ingredients": ["Tomato","Mushroom","Mozarella","Parmesan","Penne"],
+        "instructions": ["1. Start with plenty of boiling water.","2. Add salt.","3. Add pasta and stir.","4. Cook until al dente.", "5. Make sure your sauce is ready.","6. Drain.","7. Toss or top with sauce."]
+    }
+]
