@@ -3,7 +3,7 @@
         "title": "Pasta",
         "description": "Tasty italian pasta",
         "_id": "1",
-        "imgUrl": "",
+        "imgUrl": "https://lilyweathers.github.io/forchetta/src/assets/penne-pasta.jpg",
         "avgRating":"4",
         "timeInMins": "5",
         "ingredients": ["Tomato","Mushroom","Mozarella","Parmesan","Penne"],

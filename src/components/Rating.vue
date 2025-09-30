@@ -43,7 +43,7 @@ export default {
     methods: {
         sendRating: async function (rate) {
             this.isRated = true;
-            let url = "https://jau22-recept-grupp7-4x3d2bpwj8jg.reky.se/recipes/" + this.recipeId + "/ratings";
+            let url = "https://lilyweathers.github.io/forchetta/db.json" + this.recipeId + "/ratings";
             fetch(url, {
                 method: "POST",
                 mode: "cors",
