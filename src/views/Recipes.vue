@@ -42,7 +42,7 @@ export default {
         search: "",
     },
     async created() {
-        this.fetchData("https://jau22-recept-grupp7-4x3d2bpwj8jg.reky.se/recipes").then(data => { this.saveData(data); }).catch((error) => console.log("Error"));
+        this.fetchData("https://lilyweathers.github.io/forchetta/db.json").then(data => { this.saveData(data); }).catch((error) => console.log("Error"));
     },
     async mounted() {
         this.$watch(
@@ -50,7 +50,7 @@ export default {
             () => {
                 this.noResult = false;
                 if (!this.categoryId && !this.search) {
-                    this.fetchData("https://jau22-recept-grupp7-4x3d2bpwj8jg.reky.se/recipes").then(data => { this.loadData(data); }).catch((error) => console.log("Error"));
+                    this.fetchData("https://lilyweathers.github.io/forchetta/db.json").then(data => { this.loadData(data); }).catch((error) => console.log("Error"));
                     localStorage.search = "";
                 }
                 if (this.categoryId) {
